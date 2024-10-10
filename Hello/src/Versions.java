@@ -47,6 +47,8 @@ public class Versions {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
+        scanner.close();
+
 
         // 4. System.nanoTime() (for more accurate timing)
         long startTime = System.nanoTime();
